@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <script src="js/jquery.min.js"></script>
+    <link rel="stylesheet" href="css/swiper.min.css">
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/swiper.min.js"></script>
+    <script src="js/animate.js"></script>
+    <!--    <script src="js/time.js"></script>-->
+    <link rel="stylesheet" href="https://at.alicdn.com/t/font_772264_8abda9lin38.css">
+</head>
+<body>
+<div class="header">
+    <div class="container">
+        <div class="header-left" id="clock">
+            欢迎访问重庆市中医骨科医院官方网站&nbsp; <span id="thistime"></span>
+        </div>
+        <script>
+           setInterval("thistime.innerHTML=new Date().toLocaleString()+' 星期'+'日一二三四五六'.charAt(new Date().getDay());",1000);
+        </script>
+        <div class="header-right">
+            <div class="choose-lan">
+                <div class="china">
+                    <button>中文</button>
+                </div>
+                <div class="english">
+                    <button>ENG</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="logo">
+    <div class="container">
+        <div class="logo-span">
+            <img src="img/logo.png" alt="">
+        </div>
+        <div class="logo-serch">
+            <div class="serch-button">
+                <div class="serch-input">
+                    <input type="text" placeholder="请输入搜索关键字">
+                </div>
+                <div class="serch-logo">
+                    <img src="img/serch.png" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="daohang">
+    <div class="container">
+        <ul>
+            <a href="#">
+                <li class="daohang-li"><span>医院首页</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>医院概况</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>新闻动态</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>专家介绍</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>重点专科</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>医疗特色</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>就医指南</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>教科天地</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>药物之窗</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>医患互动</span></li>
+            </a>
+            <a href="#">
+                <li class="daohang-li"><span>党团建设</span></li>
+            </a>
+        </ul>
+    </div>
+</div>
+<!---------首页轮播------------>
+<div class="lunbo">
+    <div id="myCarousel" class="carousel slide" data-ride="carousel" data-interval="2500">
+        <!-- 轮播（Carousel）指标 -->
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <!-- 轮播（Carousel）项目 -->
+        <div class="carousel-inner">
+            <div class="item active">
+                <img class="item-img" src="img/banner1.png" alt="First slide">
+                <div class="one-item one-anmation">
+                    <img src="img/banner1-1.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/banner2.png" alt="Second slide">
+                <div class="two-item two-anmation">
+                    <img class="" src="img/banner2-1.png" alt="">
+                </div>
+            </div>
+            <div class="item">
+                <img src="img/banner3.jpg" alt="Third slide">
+            </div>
+        </div>
+        <!-- 轮播（Carousel）导航 -->
+    </div>
+</div>
+<!----------快速导航------------>
+<div class="kuaidaohang">
+    <div class="container">
+        <ul>
+            <li class="kuaisu">
+                <img src="img/kuaisu.png" alt="">
+            </li>
+            <a href="#">
+                <li class="kuai-li">
+                    <img src="img/guahao.png" alt="">
+                    <span>预约挂号</span>
+                    <div class="kuai-img">
+                        <img src="img/icon01.png" alt="">
+                        <span>预约挂号</span>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="kuai-li jiuyi">
+                    <img src="img/jiuyi.png" alt="">
+                    <span>就医指南</span>
+                    <div class="kuai-img">
+                        <img src="img/icon02.png" alt="">
+                        <span>就医指南</span>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="kuai-li">
+                    <img src="img/keshi.png" alt="">
+                    <span>科室导航</span>
+                    <div class="kuai-img">
+                        <img src="img/icon04.png" alt="">
+                        <span>科室导航</span>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="kuai-li">
+                    <img src="img/zhuanjia.png" alt="">
+                    <span>专家介绍</span>
+                    <div class="kuai-img">
+                        <img src="img/icon03.png" alt="">
+                        <span>专家介绍</span>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="kuai-li">
+                    <img src="img/dili.png" alt="">
+                    <span>地理位置</span>
+                    <div class="kuai-img">
+                        <img src="img/icon05.png" alt="">
+                        <span>地理位置</span>
+                    </div>
+                </li>
+            </a>
+            <a href="#">
+                <li class="kuai-li">
+                    <img src="img/tijian.png" alt="">
+                    <span>体检报告</span>
+                    <div class="kuai-img">
+                        <img src="img/icon06.png" alt="">
+                        <span>体检报告</span>
+                    </div>
+                </li>
+            </a>
+        </ul>
+    </div>
+</div>
+<!-----------新闻动态------------>
+<div class="new">
+    <div class="container">
+        <div class="new-title">
+            <div class="new-left">
+                <img src="img/new-dontai.png" alt="">
+            </div>
+            <div class="new-right">
+                <div class="new-right-deta">
+                    <li>医院新闻 <span class="icon iconfont icon-arrow-ios-forward-outline"></span>
+                        <span class="icon iconfont icon-tubiaozhizuo-"></span>
+                    </li>
+                    <li>招标公告<span class="icon iconfont icon-arrow-ios-forward-outline"></span>
+                        <span class="icon iconfont icon-tubiaozhizuo-"></span></li>
+                    <li>药学动态<span class="icon iconfont icon-arrow-ios-forward-outline"></span>
+                        <span class="icon iconfont icon-tubiaozhizuo-"></span></li>
+                    <li>设备动态<span class="icon iconfont icon-arrow-ios-forward-outline"></span></li>
+                    <img src="img/new-add.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="new-details">
+            <div class="new-lunbo">
+                <div id="myCarousel-2" class="carousel slide" data-ride="carousel" data-interval="2500">
+                    <!-- 轮播（Carousel）指标 -->
+                    <div class="xinwenzb">
+                        <ol class="carousel-indicators">
+                            <li data-target="#myCarousel-2" data-slide-to="0" class="active"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="1"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="2"></li>
+                            <li data-target="#myCarousel-2" data-slide-to="3"></li>
+                        </ol>
+                    </div>
+                    <!-- 轮播（Carousel）项目 -->
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="img/new-img.png" alt="First slide">
+                            <div class="data">
+                                <span>04-26</span>
+                            </div>
+                            <div class="item-span">
+                                <span>我院筋伤三病区主任刘榆送参加市第五次党代会</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/new-img.png" alt="Second slide">
+                            <div class="data"><span>04-26</span></div>
+                            <div class="item-span">
+                                <span>我院筋伤三病区主任刘榆送参加市第五次党代会</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/new-img.png" alt="Third slide">
+                            <div class="data"><span>04-26</span></div>
+                            <div class="item-span">
+                                <span>我院筋伤三病区主任刘榆送参加市第五次党代会</span>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <img src="img/new-img.png" alt="Fourth slide">
+                            <div class="data"><span>04-26</span></div>
+                            <div class="item-span">
+                                <span>我院筋伤三病区主任刘榆送参加市第五次党代会</span>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- 轮播（Carousel）导航 -->
+                </div>
+            </div>
+            <div class="new-xinwen">
+                <div class="new-xinwen-back">
+                    <ul>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>扬鞭奋蹄埋头苦干 传承创新奋发有为----市第五次党代会代表刘渝松为…</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open on">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>我院筋伤三区主任刘渝松参加市第五次党代会</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>奋发有为创新一基层代表这样说</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>维护我院“渝州正骨”品牌所有权对恶意抢注行为申诉成功</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>党建引领新征程扬帆起航正当时</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>祝贺：我院郭亮荣获“重庆好医生、重庆好护士”2019年第二季度</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>渝中区政协委员到我院调研发展情况</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>抓机遇 谋发展</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                        <a href="#">
+                            <li class="xinwen-li ">
+                                <div class="span-default">
+                                    <div class="span-left">
+                                        <span>中医走进藏区 造福一方百姓</span>
+                                    </div>
+                                    <div class="span-right">
+                                        <span>07-09</span>
+                                    </div>
+                                </div>
+                                <div class="span-more open">
+                                    <span>中共重庆市第五次代表大会胜利闭幕，为更好地将党代会精神传达至基层，
+                                        推动“两学一做”学习教育活动常态化制度化，
+                                        6月7日下午，中共重庆市中医骨科医院总支委员会举办了…习市五次党代会专题党课</span>
+                                </div>
+                            </li>
+                        </a>
+                    </ul>
+                    <script>
+                        var hoverI = 0;
+                        var timerId = '';
+
+                        function runTimer() {
+                            let max = 9;
+                            let selectClass = 'in';
+                            timerId = setInterval(function () {
+                                $('.xinwen-li').removeClass('in').eq(hoverI).addClass('in');
+                                hoverI += 1;
+                                if (hoverI >= max) {
+                                    hoverI = 0;
+                                }
+                            }, 3500)
+                        }
+
+                        $(function () {
+                            runTimer();
+                            $('.xinwen-li').hover(function () {
+                                $('.xinwen-li').removeClass('in');
+                                $(this).addClass('in');
+                                $('.xinwen-li').find('.open').hide();
+                                $(this).find('.open').show();
+                                hoverI = $('.xinwen-li').index(this) + 1;
+                                clearInterval(timerId);
+                            }, function () {
+                                $(this).addClass('in');
+                                runTimer();
+                                $(this).find('.open').hide();
+                            })
+                        })
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------医疗科室导航--------------->
+<div class="medical">
+    <div class="container">
+        <div class="medical-title">
+            <img src="img/medical-title.png" alt="">
+        </div>
+        <div class="medical-details">
+            <div id="myCarousel-3" class="carousel slide" data-ride="carousel" data-interval="3000">
+                <!-- 轮播（Carousel）指标 -->
+                <div class="medical-zh">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel-3" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel-3" data-slide-to="1"></li>
+                        <li data-target="#myCarousel-3" data-slide-to="2"></li>
+                    </ol>
+                </div>
+                <!-- 轮播（Carousel）项目 -->
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <ul>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <ul>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                    <div class="item">
+                        <ul>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                            <a href="#">
+                                <li class="medical-li">
+                                    <h3>门诊部</h3>
+                                    <p>重庆市中医骨科医院的门诊部开设有骨伤科、筋伤科、中医外科、关节外科、脊柱科、儿童骨科及急诊等科室，
+                                        常年由全国知名专家2名，重庆市、区级名老中医3</p>
+                                </li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+                <!-- 轮播（Carousel）导航 -->
+            </div>
+        </div>
+    </div>
+</div>
+<!----------门诊排班---------------------->
+<div class="section">
+    <div class="container">
+        <div class="section-time">
+            <div class="section-left">
+                <img src="img/section.png" alt="">
+                <div class="section-libiao">
+                    <div class="dropdown">
+                        <div class="choose-section">
+                            <button type="button" class="btn  dropdown-toggle" id="dropdownMenu1"
+                                    data-toggle="dropdown">
+                                选择科室
+                                <span class="icon iconfont icon-zhcc_xiangxiajiantou"></span>
+                            </button>
+                            <ul class="dropdown-menu section-open" role="menu" aria-labelledby="dropdownMenu1">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Java</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">数据通信/网络</a>
+                                </li>
+                                <li role="presentation" class="divider"></li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">分离的链接</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="section-chooseTime">
+                            <div class="week">
+                                <button type="button" class="btn  dropdown-toggle" id="dropdownMenu1-1"
+                                        data-toggle="dropdown">
+                                    星期
+                                    <span class="icon iconfont icon-zhcc_xiangxiajiantou"></span>
+                                </button>
+                                <ul class="dropdown-menu section-open" role="menu" aria-labelledby="dropdownMenu1-1">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">Java</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="Time">
+                                <button type="button" class="btn  dropdown-toggle" id="dropdownMenu1-2"
+                                        data-toggle="dropdown">
+                                    时间
+                                    <span class="icon iconfont icon-zhcc_xiangxiajiantou"></span>
+                                </button>
+                                <ul class="dropdown-menu section-open" role="menu" aria-labelledby="dropdownMenu1-2">
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">Java</a>
+                                    </li>
+                                    <li role="presentation">
+                                        <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="choose-doctor">
+                            <button type="button" class="btn  dropdown-toggle" id="dropdownMenu1-3"
+                                    data-toggle="dropdown">
+                                选择科室
+                                <span class="icon iconfont icon-zhcc_xiangxiajiantou"></span>
+                            </button>
+                            <ul class="dropdown-menu section-open" role="menu" aria-labelledby="dropdownMenu1-3">
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">Java</a>
+                                </li>
+                                <li role="presentation">
+                                    <a role="menuitem" tabindex="-1" href="#">数据挖掘</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="sure-sele">
+                            <button type="button">点击查询</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-right">
+                <a class="product_prev"></a>
+                <div class="swiper-container" id="product">
+                    <ul class="swiper-wrapper">
+                        <li class="swiper-slide">
+                            <div class="doctor-every">
+                                <div class="doctor-img">
+                                    <img src="img/doctor-1.png" alt="">
+                                </div>
+                                <div class="doctor-infor">
+                                    <div class="doctor-name">
+                                        <span>朱忠祥</span>
+                                    </div>
+                                    <div class="doctor-zhiwei">
+                                        <img src="img/ico.png" alt="">
+                                        <span>主任中医师</span>
+                                    </div>
+                                </div>
+                                <div class="doctor-section">
+                                    <p>骨科专家</p>
+                                    <div class="doctor-deta">
+                                        <span>从事骨伤临床工作50余年，擅长于运用传统手法和中西医结合方法治疗各种骨折、脱位、软组织损伤及骨伤科疑难杂症。</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="doctor-every">
+                                <div class="doctor-img">
+                                    <img src="img/doctor-2.png" alt="">
+                                </div>
+                                <div class="doctor-infor">
+                                    <div class="doctor-name">
+                                        <span>漆伟</span>
+                                    </div>
+                                    <div class="doctor-zhiwei">
+                                        <img src="img/ico.png" alt="">
+                                        <span>主任中医师</span>
+                                    </div>
+                                </div>
+                                <div class="doctor-section">
+                                    <p>骨科专家</p>
+                                    <div class="doctor-deta">
+                                        <span>中华中医药学会骨伤科专委会常务委员，中华中医药学会医院管理专委会委员，中国中西医结合学会骨科专委会创伤、</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="doctor-every">
+                                <div class="doctor-img">
+                                    <img src="img/doctor-3.png" alt="">
+                                </div>
+                                <div class="doctor-infor">
+                                    <div class="doctor-name">
+                                        <span>朱珠</span>
+                                    </div>
+                                    <div class="doctor-zhiwei">
+                                        <img src="img/ico.png" alt="">
+                                        <span>主任中医师</span>
+                                    </div>
+                                </div>
+                                <div class="doctor-section">
+                                    <p>骨科专家</p>
+                                    <div class="doctor-deta">
+                                        <span>毕业于成都中医药大学 从事骨伤临床工作20余年，擅长于运用中西医结合方法治疗各种骨折、脱位、软组织损伤及颈肩腰腿痛等退行性病变</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="swiper-slide">
+                            <div class="doctor-every">
+                                <div class="doctor-img">
+                                    <img src="img/doctor-4.png" alt="">
+                                </div>
+                                <div class="doctor-infor">
+                                    <div class="doctor-name">
+                                        <span>赵汉华</span>
+                                    </div>
+                                    <div class="doctor-zhiwei">
+                                        <img src="img/ico.png" alt="">
+                                        <span>主任中医师</span>
+                                    </div>
+                                </div>
+                                <div class="doctor-section">
+                                    <p>骨科专家</p>
+                                    <div class="doctor-deta">
+                                        <span>重庆市骨伤专委会委员，重庆市劳动力鉴定专家库成员。从事骨科专业工作三十余年，擅长中、西医结合治疗各种骨伤疾病，数次获得重庆市科</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+                <a class="product_next"></a>
+                <script>
+                    var productSwiper = new Swiper('#product', {
+                        // autoplay: true,//切换时间
+                        autoplay: {
+                            delay: 3000
+                        },
+                        loop: true,//是否循环
+                        resizeReInit: true,//
+                        autoResize: false,//大小自适应
+                        centeredSlides: true,//设置active是否居中
+                        watchActiveIndex: true,//如果启用触屏事件期间会重新动态计算活动块的索引。
+                        slidesPerView: 3,//设置显示slide个数
+                        navigation: {
+                            nextEl: '.product_next',
+                            prevEl: '.product_prev',
+                        },
+                    });
+                    var selectThis = '';
+                    $('.swiper-slide').mouseover(function () {
+                        selectThis = $('.swiper-slide-active');
+                        $('.swiper-slide').removeClass('swiper-slide-active');
+                        $(this).addClass('swiper-slide-active')
+                    })
+                    $('.swiper-slide').mouseout(function () {
+                        $(this).removeClass('swiper-slide-active')
+                        selectThis.addClass('swiper-slide-active')
+                    })
+                </script>
+            </div>
+        </div>
+        <div class="section-link">
+            <div class="section-linkLeft">
+                <div class="section-one">
+                    <div class="section-one-border">
+                        <img src="img/yiyuan-1.png" alt="">
+                        <div class="one-1 one-donghua">
+                            <img src="img/yiyuan-1-1.png" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="section-two">
+                    <div class="section-two-border">
+                        <img src="img/yiyuan-2.png" alt="">
+                        <div class="two two-donhua">
+                            <span>社区服务中心</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-three">
+                    <div class="section-three-border">
+                        <img src="img/yiyuan-3.png" alt="">
+                        <div class="three three-donhua">
+                            <span>人才招聘</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-four">
+                    <div class="section-four-border">
+                        <img src="img/yiyuan-4.png" alt="">
+                        <div class="four four-donhua">
+                            <span>健康视频</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="section-five">
+                    <div class="section-five-border">
+                        <img src="img/yiyaun-5.png" alt="">
+                        <div class="five five-donhua">
+                            <span>重点学科/特色专科</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="section-linkRight">
+                <div class="link-img"><img src="img/study-dang.png" alt=""></div>
+                <ul>
+                    <li><span>医联体建设抗生素专项整治活动</span></li>
+                    <li><span>进一步改善医疗服务行动计划</span></li>
+                    <li><span>三级甲等医院复评</span></li>
+                    <li><span>优质护理示范工程</span></li>
+                </ul>
+                <a href="#">
+                    <div class="more-button">
+                        <span>更多专题+</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<!-------友情链接-------------->
+<div class="link">
+    <div class="container">
+        <ul>
+            <a href="#">
+                <li>+<span>行政监督</span></li>
+            </a>
+            <a href="#">
+                <li>+<span>医疗机构</span></li>
+            </a>
+            <a href="#">
+                <li>+<span>医学学会</span></li>
+            </a>
+            <a href="#">
+                <li>+<span>其他链接</span></li>
+            </a>
+        </ul>
+    </div>
+</div>
+<!---------后台-------------->
+<div class="footer">
+    <div class="company-info">
+        <div class="container">
+            <div class="info">
+                <div class="info-link">
+                    <li><span>网站首页</span></li>
+                    <li><span>医院简介</span></li>
+                    <li><span>专家团队</span></li>
+                    <li><span>网上挂号</span></li>
+                    <li><span>联系我们</span></li>
+                </div>
+                <div class="info-site">
+                    <li><span>网址:www.cqgkyy.cn</span></li>
+                    <li><span>门诊大楼地址：重庆市渝中区新华路489号(凯旋路电梯旁)</span></li>
+                    <li><span>邮编：400010</span></li>
+                    <li><span>ICP备案号：渝ICP备09005213号</span></li>
+                </div>
+                <div class="info-img">
+                    <li><img src="img/xinlang.png" alt=""></li>
+                    <li><img src="img/weixin.png" alt=""></li>
+                    <li><img src="img/qq.png" alt=""></li>
+                    <li><img src="img/gongan.png" alt=""></li>
+                    <li><img src="img/shiye.png" alt=""></li>
+                </div>
+            </div>
+            <div class="phone">
+                <li><img src="img/phone.png" alt=""></li>
+                <li><span>24小时就医电话：86-23-63930001</span></li>
+                <li><span>客服中心：023-63930193</span></li>
+                <li><span>医务科：023-63931183</span></li>
+                <li><span>医保科：023-63931185</span></li>
+                <li><span>院办公室：023-63930833</span></li>
+            </div>
+            <div class="weixin">
+                <li><img src="img/weibo.png" alt="">
+                    <p>官方微博</p>
+                </li>
+                <li>
+                    <img src="img/weixin-gf.png" alt="">
+                    <p>官方微信</p>
+                </li>
+            </div>
+        </div>
+    </div>
+    <div class="beian">
+        <div class="container">
+            <li><span>重庆市骨科医院版权所有</span></li>
+            <li class="float-right"><span>技术支持：讯迈科技</span></li>
+        </div>
+    </div>
+</div>
+</body>
+</html>

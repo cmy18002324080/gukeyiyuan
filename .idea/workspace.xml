@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="fdae3bae-2d17-4285-9e84-f7d05063a1e8" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1U8s6Tie93vnZsikl7bjcJ35pw8" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.tslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+    <property name="settings.editor.selected.configurable" value="preferences.sourceCode" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\xia\Desktop\hosptal\js" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\xia\Desktop\hosptal\css" />
+      <recent name="C:\Users\xia\Desktop\hosptal\js" />
+    </key>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fdae3bae-2d17-4285-9e84-f7d05063a1e8" name="Default Changelist" comment="" />
+      <created>1574749382041</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574749382041</updated>
+      <workItem from="1574749383354" duration="10534000" />
+      <workItem from="1574816834700" duration="9956000" />
+      <workItem from="1574835623675" duration="11401000" />
+      <workItem from="1574902359512" duration="24459000" />
+      <workItem from="1574992041657" duration="5893000" />
+      <workItem from="1575010449140" duration="8435000" />
+      <workItem from="1575248306585" duration="9356000" />
+      <workItem from="1575266924821" duration="1159000" />
+      <workItem from="1575271036464" duration="6683000" />
+      <workItem from="1575333327822" duration="1989000" />
+      <workItem from="1575356039381" duration="3939000" />
+      <workItem from="1575360335859" duration="6589000" />
+      <workItem from="1575419469400" duration="1768000" />
+      <workItem from="1575509585708" duration="1791000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1575252380248">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="414" y="179" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1050@0.0.1920.1050" timestamp="1575252380248" />
+    <state x="740" y="279" key="FileChooserDialogImpl" timestamp="1575449176555">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="740" y="279" key="FileChooserDialogImpl/0.0.1920.1050@0.0.1920.1050" timestamp="1575449176555" />
+    <state x="66" y="123" width="916" height="738" key="SettingsEditor" timestamp="1574992577897">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="66" y="123" width="916" height="738" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1574992577897" />
+    <state x="636" y="261" width="647" height="528" key="find.popup" timestamp="1575256015502">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="636" y="261" width="647" height="528" key="find.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1575256015502" />
+    <state x="616" y="237" key="run.anything.popup" timestamp="1575274500200">
+      <screen x="0" y="0" width="1920" height="1050" />
+    </state>
+    <state x="616" y="237" key="run.anything.popup/0.0.1920.1050@0.0.1920.1050" timestamp="1575274500200" />
+  </component>
+</project>
